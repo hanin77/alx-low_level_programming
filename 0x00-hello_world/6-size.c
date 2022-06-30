@@ -8,16 +8,10 @@
 
 int main(void)
 {
-	char characterVar;
-	int integerVar;
-	long longIntegerVar;
- 	long long longlongVar;
-	float floatVar;
-	printf("Size of a char: %d byte(s)\n", sizeof(characterVar));
-	printf("Size of an int: %d byte(s)\n", sizeof(integerVar));
-	printf("Size of a long int: %d byte(s)\n", sizeof(longIntegerVar));
-	printf("Size of a long long int: %d byte(s)\n", sizeof(longlongVar));
-	printf("Size of a float: %d byte(s)\n", sizeof(floatVar));
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %d byte(s)\n", sizeof(float));
 	return (0);
-
 }
