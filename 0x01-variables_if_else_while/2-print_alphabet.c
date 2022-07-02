@@ -9,7 +9,7 @@ int main(void)
 	char letters[] = "abcdeghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 24; i++)
+	for (i = 0; i < 25; i++)
 		putchar(letters[i]);
 
 	putchar('\n');
