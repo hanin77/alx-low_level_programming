@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ * main - prints all alphabet in lowercase
+ * Return: 0
+ */
+int main(void)
+{
+	char letters[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; i++)
+		putchar(letters[i]);
+	for (i = 0; i < 26; i++)
+		putchar(toupper(letters[i]));
+
+	putchar('\n');
+	return (0);
+}
