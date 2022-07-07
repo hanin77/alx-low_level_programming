@@ -3,12 +3,12 @@
 /**
  * main - Finds and prints the largest prime
  * factor of the number 612852475143.
- * Return: Always 0.
+ * Return: 0.
  */
-int main(void) 
+int main(void)
 {
 	long prime = 612852475143, div;
-	
+
 	while (div < (prime / 2))
 	{
 		if ((prime % 2) == 0)
